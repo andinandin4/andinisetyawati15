@@ -1,0 +1,23 @@
+.hero {
+    background: url('about.jpg') center center / cover no-repeat;
+    color: white;
+    padding: 150px 0 100px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }.navbar-transparent {
+background-color: rgba(0, 123, 255, 0.6);
+backdrop-filter: blur(5px);
+}
+
+.img-hover:hover {
+transform: scale(1.05);
+transition: 0.3s;
+cursor: pointer;
+}
+
+.zoom-effect {
+transition: transform 0.3s;
+}
+
+.zoom-effect:active {
+transform: scale(1.1);
+}
